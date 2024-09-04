@@ -5,4 +5,4 @@ if [[ ! $1 ]]; then
   exit 1
 fi
 
-docker-compose -f docker-$1-compose.yml down
+docker compose -f docker-$1-compose.yml down
